@@ -1,0 +1,79 @@
+
+body
+{
+    background-image: url("../imagens/fundo.png");
+    max-width: 80%;
+    padding: 0 20% 0 20%;
+}
+.cabecalho
+{
+    margin: 23px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabecalho__img
+{
+
+}
+.cabecalho__menu
+{
+    display: flex;
+    gap: 20px;
+}
+.cabecalho__menu_item
+{
+   border-bottom: 1px rgb(255, 255, 255) solid; 
+}
+.cabecalho__menu_item:hover
+{
+   border-bottom: 1px rgb(0, 0, 0) solid; 
+   transition: 1s;
+}
+
+
+
+
+
+.conteudo
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.conteudo__texto_lista
+{
+    padding: 0 0 0 50px ;
+}
+
+
+.rodape
+{
+    text-align: center;
+    background-color: #393f58;
+    color: white;
+}
+
+.texto_p_negrito{
+    font-weight: bold;
+}
+.texto_p_italico{
+    font-style: italic;
+}
+
+.conteudo__formulario_input
+{
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.conteudo__formulario_textarea
+{
+    width: 400px;
+    height: 150px;
+    resize: vertical; /* ou "horizontal" ou "both" ou "none" */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
