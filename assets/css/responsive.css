@@ -8,4 +8,10 @@
     {
         flex-direction: column;
     }
+
+    .conteudo__formulario_textarea
+    {
+        width: 200px;
+        height: 75px;
+    }
 }
