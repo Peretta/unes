@@ -2,8 +2,10 @@
 body
 {
     background-image: url("../imagens/fundo.png");
-    max-width: 80%;
-    padding: 0 20% 0 20%;
+    max-width: 60%;
+    max-height: 100%;
+    /*padding: 0 20% 0 20%;*/
+    margin: 0 auto;
 }
 .cabecalho
 {
@@ -16,6 +18,10 @@ body
 .cabecalho__img
 {
 
+}
+.conteudo__capa
+{
+    height: 413px;
 }
 .cabecalho__menu
 {
